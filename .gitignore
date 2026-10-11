@@ -1,0 +1,21 @@
+node_modules/
+frontend/node_modules/
+frontend/dist/
+backend/node_modules/
+backend/.env
+backend/.jwt-secret
+backend/.admin-credentials
+backend/uploads/**
+!backend/uploads/gallery/.gitkeep
+!backend/uploads/documents/.gitkeep
+!backend/uploads/faculty/
+!backend/uploads/faculty/.gitkeep
+.DS_Store
+*.log
+
+# Local environment and generated credentials
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env

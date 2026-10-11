@@ -1,0 +1,941 @@
+{
+  "source": "https://www.pncentralacademy.com",
+  "generatedAt": "2026-10-10T17:53:02.409Z",
+  "pages": [
+    {
+      "url": "https://www.pncentralacademy.com/",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/index.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/about.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/vision-and-mission.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/infrastructure.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/admisssion-Procedure.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/fees-structure.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/teaching-staff.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/non-teaching-staff.php",
+      "status": "error",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/mandisclosure.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/photo-galley.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/video-gallery.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/contact.php",
+      "status": "ok",
+      "title": "P.N.central Academy-Best CBSE School in Praygaraj"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/facilities.php",
+      "status": "error",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/index.html",
+      "status": "error",
+      "error": "HTTP 404"
+    }
+  ],
+  "assetsDiscovered": 61,
+  "assetsDownloaded": 59,
+  "manifest": [
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/new.gif",
+      "kind": "image",
+      "alt": "new",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php",
+        "/admisssion-Procedure.php",
+        "/fees-structure.php",
+        "/teaching-staff.php",
+        "/mandisclosure.php",
+        "/photo-galley.php",
+        "/video-gallery.php",
+        "/contact.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/804487b438-new.gif",
+      "bytes": 6296,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/pnlogo.png",
+      "kind": "image",
+      "alt": "logo",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php",
+        "/admisssion-Procedure.php",
+        "/fees-structure.php",
+        "/teaching-staff.php",
+        "/mandisclosure.php",
+        "/photo-galley.php",
+        "/video-gallery.php",
+        "/contact.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/6c3a610dc2-pnlogo.png",
+      "bytes": 125023,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/phone-call.png",
+      "kind": "image",
+      "alt": "img",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php",
+        "/admisssion-Procedure.php",
+        "/fees-structure.php",
+        "/teaching-staff.php",
+        "/mandisclosure.php",
+        "/photo-galley.php",
+        "/video-gallery.php",
+        "/contact.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/9efaf70cd1-phone-call.png",
+      "bytes": 2253,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/mailing.png",
+      "kind": "image",
+      "alt": "img",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php",
+        "/admisssion-Procedure.php",
+        "/fees-structure.php",
+        "/teaching-staff.php",
+        "/mandisclosure.php",
+        "/photo-galley.php",
+        "/video-gallery.php",
+        "/contact.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/c45aea9366-mailing.png",
+      "bytes": 2433,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/hello-mic.gif",
+      "kind": "image",
+      "alt": "English",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/d1e152742d-hello-mic.gif",
+      "bytes": 299956,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/slider/SLIDER_693551fb3b7b08.85905915.png",
+      "kind": "image",
+      "alt": "Slider Image",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/hero-campus.png",
+      "bytes": 351022,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/slider/SLIDER_6935518d4de608.74859959.png",
+      "kind": "image",
+      "alt": "Slider Image",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/hero-community.png",
+      "bytes": 395378,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/an-img-02.png",
+      "kind": "image",
+      "alt": "contact-bg-an-01",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/aee57879cd-an-img-02.png",
+      "bytes": 35167,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/about.png",
+      "kind": "image",
+      "alt": "Science Experiment",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/e3170fdc08-about.png",
+      "bytes": 166975,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/directorpn.png",
+      "kind": "image",
+      "alt": "pncentral acedemy",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/director.png",
+      "bytes": 226912,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/principal.png",
+      "kind": "image",
+      "alt": "#",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/0d3e338c54-principal.png",
+      "bytes": 214509,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/an-img-03.png",
+      "kind": "image",
+      "alt": "an-img-01",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/9bd7cba11b-an-img-03.png",
+      "bytes": 50104,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/smart.png",
+      "kind": "image",
+      "alt": "Smart Class",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/1a338c325d-smart.png",
+      "bytes": 320255,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/cou-icon.png",
+      "kind": "image",
+      "alt": "img",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/3559c78f49-cou-icon.png",
+      "bytes": 1579,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/music.png",
+      "kind": "image",
+      "alt": "music",
+      "pages": [
+        "/",
+        "/index.php",
+        "/about.php",
+        "/vision-and-mission.php",
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/2438f75dbc-music.png",
+      "bytes": 143843,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/chemestrylab.png",
+      "kind": "image",
+      "alt": "sciece lab",
+      "pages": [
+        "/",
+        "/index.php",
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/cf8918ca87-chemestrylab.png",
+      "bytes": 483886,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/ground.png",
+      "kind": "image",
+      "alt": "Bachelor of Education",
+      "pages": [
+        "/",
+        "/index.php",
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/958cb18f5d-ground.png",
+      "bytes": 618060,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/1.png",
+      "kind": "image",
+      "alt": "Image 1",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-01.png",
+      "bytes": 160172,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/2.png",
+      "kind": "image",
+      "alt": "Image 2",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-02.png",
+      "bytes": 489913,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/3.png",
+      "kind": "image",
+      "alt": "Image 3",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-03.png",
+      "bytes": 303402,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/4.png",
+      "kind": "image",
+      "alt": "Image 4",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-04.png",
+      "bytes": 492273,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/5.png",
+      "kind": "image",
+      "alt": "Image 4",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-05.png",
+      "bytes": 468317,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/6.png",
+      "kind": "image",
+      "alt": "Image 4",
+      "pages": [
+        "/",
+        "/index.php",
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-06.png",
+      "bytes": 530875,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/7.png",
+      "kind": "image",
+      "alt": "Image 4",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-07.png",
+      "bytes": 166654,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/8.png",
+      "kind": "image",
+      "alt": "Image 4",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/gallery-08.png",
+      "bytes": 152080,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/admission.gif",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/",
+        "/index.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/3d4ca9a376-admission.gif",
+      "bytes": 382942,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fontawesome/webfonts/fa-brands-400.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/fontawesome/css/all.min.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/f8922123fb-fa-brands-400.svg",
+      "bytes": 691747,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fontawesome/webfonts/fa-duotone-900.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/fontawesome/css/all.min.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/5187846208-fa-duotone-900.svg",
+      "bytes": 2228207,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fontawesome/webfonts/fa-light-300.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/fontawesome/css/all.min.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/d99a32a01e-fa-light-300.svg",
+      "bytes": 2066643,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fontawesome/webfonts/fa-regular-400.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/fontawesome/css/all.min.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/200956006a-fa-regular-400.svg",
+      "bytes": 1856858,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fontawesome/webfonts/fa-solid-900.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/fontawesome/css/all.min.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/9df139861c-fa-solid-900.svg",
+      "bytes": 1514715,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/fonts/dripicons-v2.svg",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/assets/frontend/css/dripicons.css"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/41924225fa-dripicons-v2.svg",
+      "bytes": 99368,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/sciecelab.jpg",
+      "kind": "image",
+      "alt": "facilities.php",
+      "pages": [
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/5288f88c9a-sciecelab.jpg",
+      "bytes": 81911,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/compauterlab.jpg",
+      "kind": "image",
+      "alt": "compauterlab",
+      "pages": [
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/928b37432d-compauterlab.jpg",
+      "bytes": 58674,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/gallery/paly.png",
+      "kind": "image",
+      "alt": "Bachelor of Education",
+      "pages": [
+        "/about.php",
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/42b584405b-paly.png",
+      "bytes": 572251,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/aboutpn.png",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/about.php",
+        "/mandisclosure.php",
+        "/contact.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/6460f30b6e-aboutpn.png",
+      "bytes": 258843,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/mission.png",
+      "kind": "image",
+      "alt": "Computer Lab",
+      "pages": [
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/6116541d2e-mission.png",
+      "bytes": 200314,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/slider3.png",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/vision-and-mission.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/cfa7399898-slider3.png",
+      "bytes": 237758,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/computer-science2.svg",
+      "kind": "image",
+      "alt": "Computer Science",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/4594b04388-computer-science2.svg",
+      "bytes": 1517,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/physics.png",
+      "kind": "image",
+      "alt": "Zoology Lab",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/ba6aba7cd8-physics.png",
+      "bytes": 834919,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/biolab.png",
+      "kind": "image",
+      "alt": "Auditorium",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/0f0076423b-biolab.png",
+      "bytes": 796656,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/mathlab.png",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/e872c14c02-mathlab.png",
+      "bytes": 161159,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/lib.png",
+      "kind": "image",
+      "alt": "Medical Room",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/1cb6c6462b-lib.png",
+      "bytes": 139087,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/schoolactivity.png",
+      "kind": "image",
+      "alt": "Girls' Common Room",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/039c24aaa7-schoolactivity.png",
+      "bytes": 742723,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/medicalroom.png",
+      "kind": "image",
+      "alt": "RO (Reverse Osmosis)",
+      "pages": [
+        "/infrastructure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/5a9ca10b73-medicalroom.png",
+      "bytes": 569804,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/aboutschool.png",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/infrastructure.php",
+        "/photo-galley.php",
+        "/video-gallery.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/28d1c3682a-aboutschool.png",
+      "downloaded": false,
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/icon/external-link.svg",
+      "kind": "image",
+      "alt": "icon01",
+      "pages": [
+        "/admisssion-Procedure.php",
+        "/fees-structure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/59e8d7db71-external-link.svg",
+      "bytes": 1438,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/skd-degree-collage.webp",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/admisssion-Procedure.php",
+        "/fees-structure.php",
+        "/teaching-staff.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/52c27c8391-skd-degree-collage.webp",
+      "bytes": 251500,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/prospectuss.pdf",
+      "kind": "document",
+      "alt": "Download Prospectus",
+      "pages": [
+        "/admisssion-Procedure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/documents/606e5546fc-prospectuss.pdf",
+      "bytes": 411456,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/admform.pdf",
+      "kind": "document",
+      "alt": "Download Admisssion Form",
+      "pages": [
+        "/admisssion-Procedure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/documents/82c64f07b2-admform.pdf",
+      "downloaded": false,
+      "error": "The operation was aborted due to timeout"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/feestrucure25-26.pdf",
+      "kind": "document",
+      "alt": "Download Fee Strusture",
+      "pages": [
+        "/fees-structure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/documents/829acfce79-feestrucure25-26.pdf",
+      "bytes": 248777,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/images/pdf.png",
+      "kind": "image",
+      "alt": "",
+      "pages": [
+        "/mandisclosure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/5cf4eaea96-pdf.png",
+      "bytes": 9309,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/documents/DOC_693a78ab0f3666.13534882.pdf",
+      "kind": "document",
+      "alt": "",
+      "pages": [
+        "/mandisclosure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/documents/5835ce36c7-DOC_693a78ab0f3666.13534882.pdf",
+      "bytes": 135548,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/documents/DOC_693a7888d16243.94808739.pdf",
+      "kind": "document",
+      "alt": "",
+      "pages": [
+        "/mandisclosure.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/documents/f7e6c5bc3e-DOC_693a7888d16243.94808739.pdf",
+      "bytes": 296270,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/IMG_693923995ffcd6.12044657.png",
+      "kind": "image",
+      "alt": "IMG_693923995ffcd6.12044657.png",
+      "pages": [
+        "/photo-galley.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/f6041f9eea-IMG_693923995ffcd6.12044657.png",
+      "bytes": 492273,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/IMG_69392393350314.82275856.png",
+      "kind": "image",
+      "alt": "IMG_69392393350314.82275856.png",
+      "pages": [
+        "/photo-galley.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/5e214d3a3e-IMG_69392393350314.82275856.png",
+      "bytes": 303402,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/IMG_6939238d8cc1b4.90799781.png",
+      "kind": "image",
+      "alt": "IMG_6939238d8cc1b4.90799781.png",
+      "pages": [
+        "/photo-galley.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/c07d851e05-IMG_6939238d8cc1b4.90799781.png",
+      "bytes": 489913,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/cpn/uploads/IMG_69392387a80c80.04590036.png",
+      "kind": "image",
+      "alt": "IMG_69392387a80c80.04590036.png",
+      "pages": [
+        "/photo-galley.php"
+      ],
+      "galleryCandidate": true,
+      "localPath": "/assets/site-mirror/ec831eae13-IMG_69392387a80c80.04590036.png",
+      "bytes": 160172,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/contact-icon01.png",
+      "kind": "image",
+      "alt": "image",
+      "pages": [
+        "/contact.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/5c25d1e632-contact-icon01.png",
+      "bytes": 6658,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/contact-icon02.png",
+      "kind": "image",
+      "alt": "image",
+      "pages": [
+        "/contact.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/fdfd935de9-contact-icon02.png",
+      "bytes": 6729,
+      "downloaded": true
+    },
+    {
+      "url": "https://www.pncentralacademy.com/assets/frontend/img/bg/contact-icon03.png",
+      "kind": "image",
+      "alt": "image",
+      "pages": [
+        "/contact.php"
+      ],
+      "galleryCandidate": false,
+      "localPath": "/assets/site-mirror/ffb3ee7a28-contact-icon03.png",
+      "bytes": 6089,
+      "downloaded": true
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://www.pncentralacademy.com/non-teaching-staff.php",
+      "stage": "page",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/facilities.php",
+      "stage": "page",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/index.html",
+      "stage": "page",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/aboutschool.png",
+      "stage": "asset",
+      "error": "HTTP 404"
+    },
+    {
+      "url": "https://www.pncentralacademy.com/admform.pdf",
+      "stage": "asset",
+      "error": "The operation was aborted due to timeout"
+    }
+  ],
+  "notes": [
+    "Only same-origin public site assets are mirrored by this script.",
+    "Review copyright, student/photo consent, document freshness and file licensing before publication.",
+    "The modern frontend uses its own code and styling; legacy scripts/styles are not blindly copied."
+  ]
+}

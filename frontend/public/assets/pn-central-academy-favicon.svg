@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">P.N. Central Academy Saidabad</title>
+  <defs>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff66b"/><stop offset="1" stop-color="#f2c900"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#83d9ee"/><stop offset="1" stop-color="#2998bf"/>
+    </linearGradient>
+  </defs>
+  <!-- Circular school crest -->
+  <circle cx="64" cy="58" r="55" fill="url(#rim)"/>
+  <circle cx="64" cy="58" r="49" fill="#fff" stroke="#258db7" stroke-width="3"/>
+  <circle cx="64" cy="58" r="39" fill="#ffed18" stroke="#f2c900" stroke-width="1.5"/>
+  <!-- Simplified central education / knowledge emblem -->
+  <circle cx="64" cy="42" r="10" fill="#f7c7a1" stroke="#d48d5b" stroke-width="1.5"/>
+  <path d="M56 39 Q64 24 72 39 L69 33 L64 29 L59 33Z" fill="#d94b32" stroke="#b82f24" stroke-width="1"/>
+  <path d="M61 41 L64 37 L67 41 L65 46 L63 46Z" fill="#f4b62f"/>
+  <path d="M52 54 Q64 47 76 54 L82 69 L46 69Z" fill="#e9f5f7" stroke="#7e9ca4" stroke-width="1.5"/>
+  <path d="M53 56 L42 64 L50 67 M75 56 L86 63 L78 67" fill="none" stroke="#bd7b39" stroke-width="3" stroke-linecap="round"/>
+  <path d="M48 69 Q64 78 80 69 L74 78 L54 78Z" fill="#fff" stroke="#b9c6c8" stroke-width="1.5"/>
+  <path d="M64 52 L64 73" stroke="#d6a22c" stroke-width="2"/>
+  <path d="M43 72 Q64 83 85 72 Q80 86 64 87 Q48 86 43 72Z" fill="#f7f7f2" stroke="#aeb9bb" stroke-width="1.2"/>
+  <!-- Open book -->
+  <path d="M35 83 Q48 78 63 85 L63 105 Q48 98 35 102Z" fill="#fff" stroke="#111827" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M93 83 Q80 78 65 85 L65 105 Q80 98 93 102Z" fill="#fff" stroke="#111827" stroke-width="2.8" stroke-linejoin="round"/>
+  <path d="M64 85 L64 105" stroke="#111827" stroke-width="2.5"/>
+  <g fill="none" stroke="#111827" stroke-width="1.4" stroke-linecap="round">
+    <path d="M40 87 Q50 85 58 89 M40 91 Q50 89 58 93 M40 95 Q50 93 58 97 M40 99 Q50 97 58 101"/>
+    <path d="M70 89 Q78 85 88 87 M70 93 Q78 89 88 91 M70 97 Q78 93 88 95 M70 101 Q78 97 88 99"/>
+  </g>
+  <!-- Ribbon with initials, legible at favicon scale -->
+  <path d="M19 106 L9 113 L18 119 L15 126 L35 120 L35 110Z" fill="#218db6" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M109 106 L119 113 L110 119 L113 126 L93 120 L93 110Z" fill="#218db6" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M22 105 Q64 100 106 105 L106 119 Q64 126 22 119Z" fill="url(#ribbon)" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+  <text x="64" y="116" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="800" letter-spacing="1" fill="#fff">P.N.</text>
+</svg>

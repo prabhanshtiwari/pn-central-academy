@@ -1,0 +1,30 @@
+{
+  "name": "pnca-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "check": "node --check src/server.js && node --check src/app.js && node --check src/config/env.js && node --check src/config/db.js && node --check src/middleware/auth.js && node --check src/middleware/asyncHandler.js && node --check src/middleware/errorHandler.js && node --check src/middleware/validate.js && node --check src/services/bootstrapAdmin.js && node --check src/controllers/adminController.js && node --check src/controllers/publicController.js && node --check src/routes/adminRoutes.js && node --check src/routes/publicRoutes.js && node --check src/models/AdminUser.js && node --check src/models/ContactMessage.js && node --check src/models/Enquiry.js && node --check src/models/GalleryItem.js && node --check src/models/SiteSettings.js && node --check src/models/Notice.js && node --check src/models/AdmissionDocument.js && node --check src/models/Faculty.js && node --check src/services/googleSheets.js && node --check src/services/cloudinary.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "pn-central-academy-revamp": "file:..",
+    "zod": "^3.24.1"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

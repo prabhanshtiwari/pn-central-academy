@@ -1,0 +1,22 @@
+{
+  "name": "pn-central-academy-revamp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-oriented MERN website starter for P.N. Central Academy",
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix backend run dev",
+    "dev:client": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix backend start",
+    "assets:sync": "node scripts/sync-site-assets.mjs",
+    "check": "npm --prefix backend run check && node --check scripts/sync-site-assets.mjs && npm --prefix frontend run build",
+    "setup": "npm install && npm --prefix backend install && npm --prefix frontend install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0"
+  }
+}
