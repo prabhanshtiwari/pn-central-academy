@@ -16,8 +16,8 @@ const iconMap = { Monitor, FlaskConical, Laptop, BookOpen, Music2, Trophy };
 // These photographs/illustrations are already included in this project's local asset mirror.
 const facilityImages = {
   Monitor: { src: '/assets/facility/1_smart_classroom.png', alt: 'Smart classroom at the academy' },
-  FlaskConical: { src: '/assets/facility/2_science_lab.png', alt: 'Students carrying out practical science work' },
-  Laptop: { src: '/assets/facility/3_computerlab/png', alt: 'Students working in the computer laboratory' },
+  FlaskConical: { src: '/assets/facility/2_science_lab.jpg', alt: 'Students carrying out practical science work' },
+  Laptop: { src: '/assets/facility/3_computer_lab.png', alt: 'Students working in the computer laboratory' },
   BookOpen: { src: '/assets/facility/4_library.png', alt: 'Library illustration from the school asset collection' },
   Music2: { src: '/assets/facility/5_music&art.png', alt: 'Music and arts equipment at the academy' },
   Trophy: { src: '/assets/facility/6_playground.webp', alt: 'Students taking part in outdoor activities' },
