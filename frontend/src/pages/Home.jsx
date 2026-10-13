@@ -15,12 +15,12 @@ const iconMap = { Monitor, FlaskConical, Laptop, BookOpen, Music2, Trophy };
 
 // These photographs/illustrations are already included in this project's local asset mirror.
 const facilityImages = {
-  Monitor: { src: '/assets/site-mirror/1a338c325d-smart.png', alt: 'Smart classroom at the academy' },
-  FlaskConical: { src: '/assets/site-mirror/5288f88c9a-sciecelab.jpg', alt: 'Students carrying out practical science work' },
-  Laptop: { src: '/assets/site-mirror/e3170fdc08-about.png', alt: 'Students working in the computer laboratory' },
-  BookOpen: { src: '/assets/site-mirror/1cb6c6462b-lib.png', alt: 'Library illustration from the school asset collection' },
-  Music2: { src: '/assets/site-mirror/2438f75dbc-music.png', alt: 'Music and arts equipment at the academy' },
-  Trophy: { src: '/assets/site-mirror/42b584405b-paly.png', alt: 'Students taking part in outdoor activities' },
+  Monitor: { src: '/assets/facility/1_smart_classroom.png', alt: 'Smart classroom at the academy' },
+  FlaskConical: { src: '/assets/facility/2_science_lab.png', alt: 'Students carrying out practical science work' },
+  Laptop: { src: '/assets/facility/3_computerlab/png', alt: 'Students working in the computer laboratory' },
+  BookOpen: { src: '/assets/facility/4_library.png', alt: 'Library illustration from the school asset collection' },
+  Music2: { src: '/assets/facility/5_music&art.png', alt: 'Music and arts equipment at the academy' },
+  Trophy: { src: '/assets/facility/6_playground.webp', alt: 'Students taking part in outdoor activities' },
 };
 
 export default function Home() {
