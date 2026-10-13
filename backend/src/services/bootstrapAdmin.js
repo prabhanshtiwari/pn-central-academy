@@ -1,45 +1,94 @@
-import crypto from 'node:crypto';
-import fs from 'node:fs';
-import path from 'node:path';
+
 import bcrypt from 'bcryptjs';
 import AdminUser from '../models/AdminUser.js';
 import SiteSettings from '../models/SiteSettings.js';
-import { getBackendRoot } from '../config/env.js';
 
 const initialSettings = {
-  key: 'public', schoolName: 'P.N. Central Academy', heroEyebrow: 'LEARN · LEAD · THRIVE',
+  key: 'public',
+  schoolName: 'P.N. Central Academy',
+  heroEyebrow: 'LEARN · LEAD · THRIVE',
   heroTitle: 'A strong foundation for a brighter future.',
-  heroSubtitle: 'A supportive, student-centred learning environment in Saidabad, Prayagraj.',
+  heroSubtitle:
+    'A supportive, student-centred learning environment in Saidabad, Prayagraj.',
   introTitle: 'Education with purpose. Character for life.',
-  introText: 'P.N. Central Academy focuses on academic learning, discipline, curiosity and all-round development.',
-  phonePrimary: '9793404694', phoneSecondary: '8381978558', phoneWhatsapp: '9793404694', email: 'pncentralacademy01@gmail.com',
-  address: 'Mauadih, Saidabad, Uttar Pradesh 221508', admissionsOpen: true,
+  introText:
+    'P.N. Central Academy focuses on academic learning, discipline, curiosity and all-round development.',
+  phonePrimary: '9793404694',
+  phoneSecondary: '8381978558',
+  phoneWhatsapp: '9793404694',
+  email: 'pncentralacademy01@gmail.com',
+  address: 'Mauadih, Saidabad, Uttar Pradesh 221508',
+  admissionsOpen: true,
 };
 
 export async function bootstrapData() {
-  await SiteSettings.updateOne({ key: 'public' }, { $setOnInsert: initialSettings }, { upsert: true });
+  // Read the only authorized administrator credentials from the environment.
+  const email = String(process.env.ADMIN_EMAIL || '')
+    .trim()
+    .toLowerCase();
 
-  const configuredEmail = (process.env.ADMIN_EMAIL || 'admin@pncentralacademy.local').trim().toLowerCase();
-  let admin = await AdminUser.findOne({ email: configuredEmail }).select('+passwordHash');
-  const credentialPath = path.join(getBackendRoot(), '.admin-credentials');
-  if (!admin && process.env.ADMIN_PASSWORD && process.env.ADMIN_PASSWORD.length >= 12) {
-    const passwordHash = await bcrypt.hash(process.env.ADMIN_PASSWORD, 12);
-    admin = await AdminUser.create({ email: configuredEmail, passwordHash, role: 'admin' });
-    console.info(`Initial admin created for ${configuredEmail} using ADMIN_PASSWORD from environment.`);
-  } else if (!admin) {
-    const password = crypto.randomBytes(24).toString('base64url');
-    const passwordHash = await bcrypt.hash(password, 12);
-    admin = await AdminUser.create({ email: configuredEmail, passwordHash, role: 'admin' });
-    const body = [
-      'P.N. Central Academy admin credentials — keep this file private.',
-      `Email: ${configuredEmail}`,
-      `Password: ${password}`,
-      'Change this password immediately after first login, or use the password change form in the admin dashboard.',
-      'Delete this file after securely storing the credentials. It is ignored by Git.',
-      '',
-    ].join('\n');
-    fs.writeFileSync(credentialPath, body, { mode: 0o600, flag: 'w' });
-    try { fs.chmodSync(credentialPath, 0o600); } catch { /* Windows may not support POSIX modes. */ }
-    console.info('Initial admin created. One-time credentials saved to backend/.admin-credentials.');
+  const password = String(process.env.ADMIN_PASSWORD || '');
+
+  // Never create an administrator using fallback credentials.
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    throw new Error(
+      'Invalid or missing ADMIN_EMAIL. Configure it in the backend environment.'
+    );
   }
+
+  if (password.length < 12) {
+    throw new Error(
+      'ADMIN_PASSWORD must contain at least 12 characters. Configure it in the backend environment.'
+    );
+  }
+
+  // Initialize public website settings without overwriting existing settings.
+  await SiteSettings.updateOne(
+    { key: 'public' },
+    { $setOnInsert: initialSettings },
+    { upsert: true }
+  );
+
+  // Find the one administrator configured in the environment.
+  let admin = await AdminUser.findOne({ email }).select('+passwordHash');
+
+  // Always apply the backend environment password.
+  // This resets an outdated database password after deployment/startup.
+  const passwordHash = await bcrypt.hash(password, 12);
+
+  if (admin) {
+    admin.passwordHash = passwordHash;
+    admin.role = 'admin';
+
+    await admin.save();
+
+    console.info(
+      `Administrator credentials synchronized for ${email}.`
+    );
+  } else {
+    // Create the configured administrator if it does not exist.
+    admin = await AdminUser.create({
+      email,
+      passwordHash,
+      role: 'admin',
+    });
+
+    console.info(
+      `Administrator created from backend environment for ${email}.`
+    );
+  }
+
+  // Delete other administrator accounts.
+  // This only affects documents in the AdminUser collection.
+  const cleanup = await AdminUser.deleteMany({
+    _id: { $ne: admin._id },
+  });
+
+  if (cleanup.deletedCount > 0) {
+    console.info(
+      `Removed ${cleanup.deletedCount} obsolete administrator account(s).`
+    );
+  }
+
+  console.info('Administrator initialization completed successfully.');
 }
