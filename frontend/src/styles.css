@@ -1218,18 +1218,19 @@ h1, h2, h3, h4 { letter-spacing: -0.04em; }
    here. Existing page, footer, and admin styles are untouched.
    ========================================================= */
 :root {
-  --school-navy: #101d3a;
-  --school-navy-deep: #0b1530;
-  --school-blue: #2456d3;
-  --school-blue-dark: #1943ae;
-  --school-blue-light: #edf3ff;
-  --school-gold: #f2bd57;
+  /* The navbar shares the same forest-green and warm-gold system as the rest of PNCA. */
+  --school-navy: #183c33;
+  --school-navy-deep: #102c26;
+  --school-blue: #287a66;
+  --school-blue-dark: #1d6554;
+  --school-blue-light: #e5f2e9;
+  --school-gold: #dfbd75;
   --school-white: #ffffff;
-  --school-text: #25324a;
-  --school-muted: #738096;
-  --school-border: #e7ebf2;
-  --school-surface: #f7f9fd;
-  --school-shadow: 0 14px 42px rgba(16, 29, 58, .12);
+  --school-text: #1c302a;
+  --school-muted: #65766e;
+  --school-border: #e1e8e2;
+  --school-surface: #f6f8f4;
+  --school-shadow: 0 18px 50px rgba(24, 60, 51, .10);
 }
 
 .school-topbar,
@@ -1782,6 +1783,248 @@ h1, h2, h3, h4 { letter-spacing: -0.04em; }
     scroll-behavior: auto !important;
     animation-duration: .01ms !important;
     animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+
+/* =====================================================================
+   PRODUCTION FINISH — consistent theme, forms, accessibility and layout
+   Keep this section last so it can safely normalize earlier legacy rules.
+   ===================================================================== */
+
+:root {
+  color-scheme: light;
+  --focus-ring: rgba(40, 122, 102, .42);
+  --field-border: #d5e1d9;
+  --field-surface: #fcfdfb;
+  --required-color: #b42318;
+  --danger: #a12a24;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: clip;
+  color: var(--ink);
+  background: #fff;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+a,
+input,
+select,
+textarea {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+:where(.about-page-grid, .contact-page-grid, .enquiry-page-grid,
+  .admissions-intro-grid, .fee-content-grid, .vision-lead-grid,
+  .staff-coming-grid, .contact-map-inner, .admission-cta-grid,
+  .values-grid, .admin-overview-grid, .admin-gallery-workspace) > * {
+  min-width: 0;
+}
+
+/* Same palette for the responsive navbar and the public pages. */
+.school-topbar { background: var(--navy); }
+.school-header { border-bottom-color: rgba(24, 60, 51, .10); }
+.school-admission-button {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: #fff;
+}
+.school-admission-button:hover {
+  background: #1d6554;
+  border-color: #1d6554;
+}
+.school-nav-link-active::after { background: var(--gold); }
+.school-explore-item:hover,
+.school-explore-item.active {
+  background: var(--teal-light);
+  color: var(--navy);
+}
+.school-mobile-contact a:hover {
+  background: var(--teal-light);
+  color: var(--navy);
+}
+
+/* Required markers remain inline with their field labels. The previous
+   column-flex label rules treated the asterisk span as its own row. */
+.enquiry-form label:not(.consent-row),
+.contact-form label:not(.consent-row) {
+  display: block;
+  min-width: 0;
+  color: #364d5a;
+  line-height: 1.5;
+}
+
+.enquiry-form label:not(.consent-row) > span,
+.contact-form label:not(.consent-row) > span {
+  display: inline;
+  margin-left: .12em;
+  color: var(--required-color);
+  font-size: .88em;
+  font-weight: 800;
+  line-height: inherit;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+.enquiry-form label:not(.consent-row) > input,
+.enquiry-form label:not(.consent-row) > select,
+.enquiry-form label:not(.consent-row) > textarea,
+.contact-form label:not(.consent-row) > input,
+.contact-form label:not(.consent-row) > select,
+.contact-form label:not(.consent-row) > textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  margin-top: 8px;
+}
+
+.enquiry-form label:not(.consent-row) > input,
+.enquiry-form label:not(.consent-row) > select,
+.enquiry-form label:not(.consent-row) > textarea,
+.contact-form label:not(.consent-row) > input,
+.contact-form label:not(.consent-row) > select,
+.contact-form label:not(.consent-row) > textarea {
+  box-sizing: border-box;
+}
+
+.enquiry-form input,
+.enquiry-form select,
+.enquiry-form textarea,
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  max-width: 100%;
+  border-color: var(--field-border);
+  background: var(--field-surface);
+  color: var(--ink);
+}
+
+.enquiry-form input:focus-visible,
+.enquiry-form select:focus-visible,
+.enquiry-form textarea:focus-visible,
+.contact-form input:focus-visible,
+.contact-form select:focus-visible,
+.contact-form textarea:focus-visible {
+  border-color: var(--teal);
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 1px;
+  box-shadow: none;
+}
+
+.enquiry-form .consent-row,
+.contact-form .consent-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  margin: 16px 0;
+  color: var(--muted);
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.65;
+}
+
+.enquiry-form .consent-row > input,
+.contact-form .consent-row > input {
+  display: block;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  flex: 0 0 18px;
+  margin: 2px 0 0;
+  padding: 0;
+  accent-color: var(--teal);
+}
+
+.enquiry-form .consent-row > span,
+.contact-form .consent-row > span {
+  display: block;
+  min-width: 0;
+  flex: 1 1 auto;
+  margin: 0;
+  color: var(--muted);
+  font-size: inherit;
+  font-weight: 500;
+  line-height: inherit;
+  white-space: normal;
+}
+
+.contact-form .form-error,
+.enquiry-form .form-error {
+  color: var(--danger);
+  border-color: #f0cfcc;
+  border-radius: 9px;
+  background: #fff5f4;
+}
+
+.contact-form .form-success,
+.enquiry-form .form-success {
+  border: 1px solid #cfe5d5;
+  border-radius: 14px;
+  background: #eff8f1;
+}
+
+.contact-form .button:focus-visible,
+.enquiry-form .button:focus-visible,
+.school-header button:focus-visible,
+.school-header a:focus-visible,
+.school-topbar a:focus-visible {
+  outline: 3px solid var(--gold-dark);
+  outline-offset: 3px;
+}
+
+/* A little more breathing room and no clipped columns on narrow devices. */
+@media (max-width: 650px) {
+  .container { width: calc(100% - 32px); }
+  .contact-form-panel,
+  .enquiry-page-form,
+  .cta-panel { min-width: 0; }
+  .contact-form-panel { padding: clamp(17px, 5vw, 23px); }
+  .contact-form h3 { line-height: 1.25; }
+  .form-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .enquiry-form-compact .form-grid { grid-template-columns: minmax(0, 1fr); }
+  .contact-map-inner { gap: 24px; }
+  .map-pattern { min-width: 0; }
+  .contact-info-card { min-width: 0; }
+  .contact-info-card strong,
+  .contact-info-card small { overflow-wrap: anywhere; }
+  .admin-table-wrap,
+  .disclosure-table-wrap { max-width: 100%; }
+}
+
+@media (max-width: 380px) {
+  .container { width: calc(100% - 26px); }
+  .button { max-width: 100%; white-space: normal; }
+  .contact-info-card { align-items: flex-start; }
+  .contact-info-card > span { flex: 0 0 36px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
     transition-duration: .01ms !important;
   }
 }
